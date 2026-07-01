@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aratoluwada — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="logo">aratoluwada.</div>
+  <ul>
+    <li><a href="#about">about</a></li>
+    <li><a href="#skills">skills</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="split">
+    <div class="pane">
+      <div class="eyebrow">mechatronics · embedded systems· Front-end development</div>
+      <h1 class="display hero-headline">build<br>things.<br>ship<br>often.</h1>
+      <p class="hero-desc">I'm Toluwade Aratoluwada, a mechatronics engineering student who builds embedded systems, websites. Currently deep in sensors, signals, and shipping software projects.</p>
+      <div class="btn-row">
+        <a class="btn btn-solid" href="#projects">VIEW PROJECTS →</a>
+        <a class="btn" href="#contact">GET IN TOUCH</a>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="pane" style="justify-content:center;align-items:center;">
+      <div class="profile-card">
+        <div class="profile-photo">
+            <img src="/assets/ara.JPG" alt="Aratoluwada">
+            <div class="toolbar">
+            <span>◐</span><span>▣</span><span>⚙</span>
+          </div>
+        </div>
+        <div class="profile-body">
+          <div class="profile-name">Toluwade Aratoluwada</div>
+          <div class="profile-loc">South-west, Nigeria.</div>
+          <p class="profile-bio">Embedded systems, Front-end dev dev, Arduino, Node.js, Bootstrap.</p>
+          <div class="profile-actions">
+  <div class="icon-pill">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 6 2 12 8 18"/><polyline points="16 6 22 12 16 18"/></svg>
+  </div>
+  <div class="icon-pill solid">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="split">
+    <div class="pane">
+      <div class="about-num">01 / about</div>
+      <h2 class="display" style="font-size:clamp(30px,4vw,52px);margin-bottom:24px;">who i am.</h2>
+      <p class="about-text">Mechatronics engineering student at the Federal University of Agriculture, Abeokuta, working across sensors, actuators, and control systems — currently deep in coursework spanning signals &amp; systems and virtual labs.</p>
+      <p class="about-text">Outside class, I build things: Scalable websites, agentic AI tools, among other things. I like shipping fast and testing on real hardware.</p>
+    </div>
+    <div class="divider"></div>
+    <div class="pane">
+      <div class="stat-grid">
+        <div class="stat"><div class="num">3+</div><div class="label">shipped apps</div></div>
+        <div class="stat"><div class="num">3</div><div class="label">active builds</div></div>
+        <div class="stat"><div class="num">2+</div><div class="label">years experience</div></div>
+        <div class="stat"><div class="num">4+</div><div class="label">hardware projects</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="skills-pane">
+    <div class="about-num">02 / skills</div>
+    <h2 class="display skills-title">what i work with.</h2>
+    <ul class="skill-list">
+      <li class="skill-row"><span>Embedded Systems</span><span class="skill-tag">Arduino · ESP32 · UART</span></li>
+      <li class="skill-row"><span>Web Development</span><span class="skill-tag">HTML5 · CSS3· Bootstrap · Node.js · React </span></li>
+      <li class="skill-row"><span>Signals &amp; Circuits</span><span class="skill-tag">Fourier · Digital Logic</span></li>
+      <li class="skill-row"><span>AI-Assisted Building</span><span class="skill-tag">AI Studio · Antigravity · Lovable · Claude</span></li>
+      <li class="skill-row"><span>Content &amp; Comms</span><span class="skill-tag">Technical Writing · Crypto Threads · Blog Writing</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="projects-header">
+    <div class="about-num">03 / projects</div>
+    <h2 class="display skills-title">recent builds.</h2>
+  </div>
+  <div class="project-list">
+    <div class="project-row">
+      <div class="project-index">01</div>
+      <div class="project-name">delaycam</div>
+      <div class="project-desc">Android camera app with a delayed live feed — CameraX ImageAnalysis, timestamped ring buffer, Compose UI.</div>
+      <div class="project-stack">Kotlin · CameraX</div>
+    </div>
+    <div class="project-row">
+      <div class="project-index">02</div>
+      <div class="project-name">smart access<span class="ongoing-tag">ongoing</span></div>
+      <div class="project-desc">RFID-based classroom access &amp; attendance system for MTE 302, with logging and role-based entry.</div>
+      <div class="project-stack">Arduino · RFID</div>
+    </div>
+    <div class="project-row">
+      <div class="project-index">03</div>
+      <div class="project-name">auto siren<span class="ongoing-tag">ongoing</span></div>
+      <div class="project-desc">Arduino-based automated school siren system on a scheduled trigger, built as a formal project.</div>
+      <div class="project-stack">Arduino · Embedded C</div>
+    </div>
+    <div class="project-row">
+      <div class="project-index">04</div>
+      <div class="project-name">coursenotes ai<span class="ongoing-tag">ongoing</span></div>
+      <div class="project-desc">Web-based AI study assistant that turns lecture material into structured notes, built in Google Antigravity.</div>
+      <div class="project-stack">Next.js · Gemini API</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-split">
+    <div class="contact-pane">
+      <h2 class="display contact-headline">let's<br>build<br>together.</h2>
+      <p class="contact-desc">Open to jobs, collaborations, internships, and opportunities. Reach out below.</p>
+      <a class="btn btn-solid" href="mailto:aratoluwadatoluwade@gmail.com">SAY HELLO →</a>
+    </div>
+    <div class="divider"></div>
+    <div class="contact-pane">
+      <ul class="contact-links">
+  <li>
+    <span class="k">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7L22 6"/></svg>
+      Email
+    </span>
+    <a href="mailto:aratoluwadatoluwade@gmail.com">aratoluwadatoluwade@gmail.com</a>
+  </li>
+  <li>
+    <span class="k">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.16.69-3.83-1.34-3.83-1.34-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.52-.29-5.17-1.26-5.17-5.62 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17.91-.25 1.89-.38 2.86-.39.97.01 1.95.14 2.86.39 2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.73.8 1.17 1.82 1.17 3.06 0 4.37-2.65 5.33-5.18 5.61.41.35.77 1.04.77 2.1 0 1.52-.01 2.74-.01 3.11 0 .3.2.66.79.55A11.53 11.53 0 0023.02 11.5C23.02 5.24 18.27.5 12 .5z"/></svg>
+      GitHub
+    </span>
+    <a href="https://github.com/aratoluwada" target="_blank" rel="noopener">github.com/aratoluwada</a>
+  </li>
+  <li>
+    <span class="k">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.24 2h3.4l-7.44 8.5L23 22h-6.85l-5.36-7-6.13 7H1.26l7.96-9.1L1 2h7.02l4.85 6.4L18.24 2zm-1.2 18h1.88L7.06 3.9H5.04L17.04 20z"/></svg>
+      X
+    </span>
+    <a href="https://x.com/TAG_Degen" target="_blank" rel="noopener">Aratoluwada</a>
+  </li>
+  <li>
+    <span class="k">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 11.01-4.12 2.06 2.06 0 01-.01 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+      LinkedIn
+    </span>
+    <a href="https://www.linkedin.com/in/aratoluwada-toluwade-64b559350/" target="_blank" rel="noopener">Toluwade Aratoluwada</a>
+  </li>
+  <li>
+    <span class="k">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1116 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Location
+    </span>
+    <span>Abeokuta, Nigeria</span>
+  </li>
+  <li>
+    <span class="k">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+      Status
+    </span>
+    <span>Open to work</span>
+  </li>
+</ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Aratoluwada</span>
+  <span>built with intention</span>
+</footer>
+
+</body>
+</html>
