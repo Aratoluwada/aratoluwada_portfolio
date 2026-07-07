@@ -31,7 +31,10 @@
   color:#ff5c4d;
   border-color:#ff5c4d;
 }
-
+[data-theme="dark"] .contact-links li,
+[data-theme="dark"] .contact-links li:last-child{
+  border-color:#2a2a2a;
+}
   *{margin:0;padding:0;box-sizing:border-box;}
 
   html{scroll-behavior:smooth;}
