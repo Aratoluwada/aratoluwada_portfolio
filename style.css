@@ -22,6 +22,11 @@
 [data-theme="dark"] .profile-photo{filter:grayscale(1) brightness(0.85);}
 [data-theme="dark"] .contact-links li,
 [data-theme="dark"] .contact-links li:last-child{border-color:#333;}
+[data-theme="dark"] .about-text,
+[data-theme="dark"] .project-desc,
+[data-theme="dark"] .profile-bio{
+  color:#d0d0cc;
+}
   *{margin:0;padding:0;box-sizing:border-box;}
 
   html{scroll-behavior:smooth;}
