@@ -7,7 +7,21 @@
     --gray:#8a8a86;
     --card-shadow: 0 0 0 1px var(--black);
   }
-
+[data-theme="dark"]{
+  --black:#f5f5f3;
+  --white:#0e0e0e;
+  --offwhite:#1a1a1a;
+  --accent:#7fa3c7;
+  --gray:#9a9a96;
+}
+[data-theme="dark"] body{background:var(--white);color:var(--black);}
+[data-theme="dark"] .nav{background:rgba(14,14,14,0.88);}
+[data-theme="dark"] .btn{background:var(--white);}
+[data-theme="dark"] .btn-solid{background:var(--black);color:var(--white);}
+[data-theme="dark"] .icon-pill.solid{background:var(--black);color:var(--white);}
+[data-theme="dark"] .profile-photo{filter:grayscale(1) brightness(0.85);}
+[data-theme="dark"] .contact-links li,
+[data-theme="dark"] .contact-links li:last-child{border-color:#333;}
   *{margin:0;padding:0;box-sizing:border-box;}
 
   html{scroll-behavior:smooth;}
